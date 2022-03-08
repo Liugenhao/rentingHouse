@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.collapse-content {
+  padding: 30rpx;
+}
+.btn-wrapper {
+  padding: 30rpx;
+}
+

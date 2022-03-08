@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "农民工租房一件事"
+			}
+		},{
+      "path" : "pages/problemReport/problemReport",
+      "style" : {
+          "navigationBarTitleText": "报修问题详情",
+          "enablePullDownRefresh": false,
+          "backgroundColor":"#FFFFFF"
+        }
+    },{
+        "path" : "pages/codeInfo/codeInfo",
+        "style" :                                                                                    
+        {
+          "navigationBarTitleText": "一房一码",
+          "enablePullDownRefresh": false
+        }
+      }
+        
+        ,{
+            "path" : "pages/problemsubmit/problemsubmit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报修问题提交",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notify/notify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息通知",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "农民工租房一件事",
+		"navigationBarBackgroundColor": "#007aff",
+    "backgroundColor":"#FFFFFF"
+	}
+}

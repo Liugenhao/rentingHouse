@@ -1,0 +1,36 @@
+<script>
+	export default {
+		onLaunch: function() {
+			/*console.warn('当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！')*/
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style lang="scss">
+	/*每个页面公共css */
+	@import '@/uni_modules/uni-scss/index.scss';
+  @import "colorui/main.css";
+  @import "colorui/icon.css";
+	/* #ifndef APP-NVUE */
+	@import '@/static/customicons.css';
+  
+
+  .mBottom30{margin-bottom: 30rpx;}
+  .fontSize34{font-size: 32rpx;}
+	// 设置整个项目的背景色
+	page {
+		background-color: #FFFFFF;
+	}
+
+	/* #endif */
+	.container {
+    padding:40rpx;
+  }
+</style>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "报修问题详情",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "shopinfo": "/components/shopinfo/shopinfo",
+    "problem": "/components/problem/problem"
+  }
+}

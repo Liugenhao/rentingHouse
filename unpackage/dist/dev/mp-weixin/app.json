@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/problemReport/problemReport",
+    "pages/codeInfo/codeInfo",
+    "pages/problemsubmit/problemsubmit"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "农民工租房一件事",
+    "navigationBarBackgroundColor": "#007aff",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

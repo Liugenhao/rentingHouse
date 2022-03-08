@@ -1,0 +1,1 @@
+<view class="container"><view class="content"><block wx:for="{{navLists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="text-area"><text data-event-opts="{{[['tap',[['navigateTo',['$0'],[[['navLists','',index,'url']]]]]]]}}" class="text-blue" bindtap="__e">{{''+item.text+''}}</text></view></block></view></view>

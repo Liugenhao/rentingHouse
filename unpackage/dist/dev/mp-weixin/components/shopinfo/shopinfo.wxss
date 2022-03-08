@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.content-item {
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.content-item:last-child {
+  border-bottom: none;
+}
+

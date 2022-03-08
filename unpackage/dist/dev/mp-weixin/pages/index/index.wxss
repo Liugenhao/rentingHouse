@@ -1,0 +1,13 @@
+
+.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+    justify-content: space-around;
+}
+.text-area {
+    flex:0 0 50%;
+    line-height: 80rpx;
+}
+
+
